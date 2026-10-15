@@ -1,0 +1,13 @@
+# Large / regenerable artifacts — do NOT commit to git
+model.joblib
+data_combined.csv
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.DS_Store
+
+# model.joblib (~94 MB) stays OUT of the repo:
+# - GitHub blocks files >100 MB, warns >50 MB, and web upload caps at 25 MB
+# - Ship it as a GitHub Release asset (2 GB limit) instead, and link it from README
+# - Anyone can rebuild it locally with: python train.py
