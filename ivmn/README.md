@@ -91,6 +91,57 @@ evaluated on the fixed test set. Mean ± std over the 5 repeats.
 
 Confusion matrix (logreg): [[TN=12, FP=11], [FN=10, TP=24]].
 
+## Interpretability (MCTS)
+
+`interpret_mcts.py` finds a **rationale**: a minimal substructure of
+an input molecule that preserves the model's prediction — the
+fragment the prediction "rests on". It is a deletion-based Monte
+Carlo Tree Search:
+
+- **State:** a SMILES string, starting from the full input molecule.
+- **Action:** delete one heavy atom and keep the largest connected
+  fragment (RDKit). Empty/invalid fragments are skipped; fragments
+  whose aromaticity breaks on deletion are repaired via Kekulization.
+- **Reward:** the model's predicted probability of the target class
+  for the fragment, minus a small size penalty (`--size-penalty`,
+  default 0.05), so smaller fragments that keep the prediction win.
+- **Search:** MCTS with UCB1 selection (`--simulations`, default
+  200). Nodes with at most `--max-atoms` heavy atoms (default 12)
+  are terminal. Each new fragment costs one ChemBERTa forward pass,
+  so a molecule finishes in ~1–2 min on CPU.
+- **Reported rationale:** the smallest evaluated fragment that
+  preserves the predicted class, verified to be a valid SMILES and a
+  substructure of the input. If no fragment preserves the prediction,
+  the script says so instead of returning a bogus rationale.
+
+```bash
+.venv/bin/python interpret_mcts.py "Nc1ccc2ccccc2c1"
+.venv/bin/python interpret_mcts.py "CCO" --target 0 --simulations 100 \
+    --out rationale.json
+```
+
+Output: input prediction + probability, the rationale SMILES with
+its heavy-atom count and probability, and the top candidate
+fragments by reward (with whether each keeps the prediction).
+`--out` writes the same result as JSON. `--target {0,1}` overrides
+which class to explain (default: the model's predicted class).
+
+Verified examples (200 simulations each):
+
+| Molecule | Model call | Rationale | Rationale P(pos) |
+|---|---|---|---|
+| Toxaphene (label 1) | positive, 0.64 | `ClCC(Cl)C(Cl)C(Cl)Cl` (9 atoms) | 0.75 |
+| Phenobarbital (label 0) | negative, 0.39 | `O=CNCNC=O` (7 atoms) | 0.29 |
+| Ethanol | positive, 0.52 | `CCO` (whole molecule, 3 atoms) | 0.52 |
+
+**Limitation — read this before citing a rationale.** A rationale is
+a *model-explanation* device: it shows which part of the structure
+the model relies on to keep its prediction. It is **not** proof of a
+biological mechanism — it does not show that the fragment causes
+micronuclei, and a fragment that preserves a prediction can still be
+an artifact of a weak model (this one: test AUC 0.68). Use rationales
+to sanity-check what the model learned, not as mechanistic evidence.
+
 ## Caveats — read before using
 
 - **Modest performance.** Frozen ChemBERTa embeddings + a linear head
@@ -122,6 +173,7 @@ Confusion matrix (logreg): [[TN=12, FP=11], [FN=10, TP=24]].
 | `embed.py` | HF embedding extraction (ChemBERTa, mean-pooled) |
 | `train_fewshot.py` | Few-shot evaluation + final model training; writes `metrics.json` |
 | `predict.py` | CLI / CSV prediction with the saved classifier |
+| `interpret_mcts.py` | MCTS rationale extraction (minimal class-preserving substructure) |
 | `model_ivmn.joblib` | Saved logreg classifier (2.5 KB) |
 | `metrics.json` | Few-shot + final test metrics (machine-readable) |
 | `requirements.txt` | Pinned deps (torch CPU, transformers, scikit-learn, rdkit, …) |
