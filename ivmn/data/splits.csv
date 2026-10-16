@@ -1,0 +1,381 @@
+smiles,label,name,cas,author_split,split
+C(=C(Cl)Cl)Cl,0,"1,1,2-Trichloroethylene",79-01-6,TR,train
+C(=CCl)CCl,0,"1,3-Dichloropropene",542-75-6,TR,test
+C(C(=C(Cl)Cl)Cl)(=C(Cl)Cl)Cl,1,"Hexachloro-1,3-butadiene",87-68-3 ,TR,train
+C(C(=O)O)NCP(=O)(O)O,1,Glyphosate,1071-83-6,TR,train
+C(CCCCl)CCCl,0,"1,6-dichlorohexane",2163-00-0,TR,train
+C1(N(C)CCS1)(=S),0,"3-methyl-1,3-thiazolidine-2-thione",1908-87-8,TR,train
+C=C1C(CCl)(CCl)C2(C(C(C1(C2(Cl)Cl)Cl)Cl)Cl)Cl,1,Toxaphene,8001-35-2,TS,train
+CC(=O)OCc1ccccc1,0,Benzyl acetate,140-11-4,TR,train
+CC(C)(Oc1ccc(cc1)C1CC1(Cl)Cl)C(O)=O,1,Ciprofibrate,52214-84-3,TR,train
+CC(C)(Oc1ccc(cc1)C1CCCc2ccccc12)C(O)=O,0,Nafenopin,3771-19-5,TR,val
+CC(C)C(C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1)c1ccc(Cl)cc1,0,fenvalerate,51630-58-1,TR,val
+CC(C)C1CCCCC1,0,propan-2-ylcyclohexane,696-29-7,TR,train
+CC(Cl)CCl,1,"1,2-Dichloropropane",78-87-5,TR,train
+CC1C(=O)OC2CCN3CC=C(COC(=O)C(C)(O)C1(C)O)C23,1,CROTALINE,315-22-0,TR,train
+CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,1,Ofloxacin,82419-36-1,TS,train
+CCC1(C(=O)NC(=O)NC1=O)c1ccccc1,0,Phenobarbital,50-06-6,TR,train
+CCCCC(C)C(OC(=O)CC(CC(O)=O)C(O)=O)C(CC(C)CC(O)CCCCC(O)CC(O)C(C)N)OC(=O)CC(CC(O)=O)C(O)=O,1,Fumonisin B1,116355-83-0,TR,train
+CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC,0,Bis(2-ethylhexyl) adipate,103-23-1,TS,val
+CCCCC(CC)COC(=O)c1ccccc1C(=O)OCC(CC)CCCC,0,Bis(2-ethylhexyl) phthalate,117-81-7,TR,val
+CCCCCCCCCCCCCC(=O)OC1C(C)C2(O)C(C=C(CO)CC3(O)C2C=C(C)C3=O)C2C(C)(C)C12OC(C)=O,0,12-O-Tetradecanoylphorbol-13-acetate,16561-29-8,TR,val
+CCN(CC)N=O,1,N-Nitrosodiethylamine,55-18-5,TR,val
+CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(C3=CC=C(O)C=C3)C(F)=C12,1,CP-67804,103978-08-1,TS,train
+CCN1C=C(C(O)=O)C(=O)c2ccc(C)nc12,1,nalidixic acid,389-08-2,TR,train
+CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1,0,clofibrate,637-07-0,TR,train
+CCOC1OC2=CC=C(OS(C)(=O)=O)C=C2C1(C)C,0,Ethofumesate,26225-79-6,TR,train
+CN(C)C(=S)SSC(=S)N(C)C,1,Thiram,137-26-8,TR,train
+CN(N=O)C(N)=O,1,N-nitroso-N-methylurea,684-93-5,TR,test
+COc1cc2OC3OC=CC3c2c2Oc3cccc(O)c3C(=O)c12,1,Sterigmatocystin,10048-13-2,TS,train
+Cc1ccc2cc3c(ccc4ccccc34)c3CCc1c23,1,METHYLCHOLANTHRENE,56-49-5,TR,val
+Cc1cccc(Nc2cc(Cl)nc(SCC(O)=O)n2)c1C,0,pirinixic acid,50892-23-4,TR,test
+Cc1cnc2ccc3c(nc(N)n3C)c2n1,1,MeIQx,77500-04-0,TR,val
+ClC(Cl)(Cl)C(Cl)(Cl)Cl,0,Hexachloroethane,67-72-1,TR,train
+ClC(Cl)(Cl)Cl,1,Carbon tetrachloride,56-23-5,TR,train
+ClC(Cl)=C(Cl)Cl,0,Tetrachloroethylene,127-18-4,TR,val
+ClC1CC2C(C1Cl)C1(Cl)C(Cl)=C(Cl)C2(Cl)C1(Cl)Cl,1,CHLORDANE,57-74-9,TR,train
+ClCC(Cl)CCl,1,"1,2,3-Trichloropropane",96-18-4,TR,val
+ClCC(Cl)Cl,1,"1,1,2-Trichloroethane",79-00-5,TR,train
+ClCCCl,1,dichloroethane,107-06-2,TS,train
+Clc1ccc(cc1)C(c1ccc(Cl)cc1)C(Cl)(Cl)Cl,1,Dichloro-diphenyl-trichloroethane,50-29-3,TR,val
+FC(F)(F)c1cc(cc(c1)I)Cl,0,1-Chloro-3-iodo-5-(trifluoromethyl)benzene,1189352-83-7,TS,train
+FC(F)=C(F)OC(F)(F)OC(F)(F)F,0,{difluoro[(trifluoroethenyl)oxy]methoxy}trifluoromethane,700874-87-9,TR,train
+Fc1ccc(N)cc1,1,p-Fluoroaniline,671-40-4,TR,val
+Fc1cccc2ncccc12,1,5-Fluoroquinoline,394-69-4,TR,train
+N#CC(N=NC(C#N)(C)CCC(=O)O)(C)CCC(=O)O,0,4-[(E)-2-(3-carboxy-1-cyano-1-methylpropyl)diazen-1-yl]-4-cyano-4-methylbutanoic acid,2638-94-0,TR,train
+N#CC(OC(=O)C1C(C=C(Cl)Cl)C1(C)(C))c3cccc(Oc2ccccc2)c3,1,supercypermethrin,52315-07-8,TR,train
+N#CC(c1cccc(c1)C(=O)Cl)C,0,3-(1-cyanoethyl)benzoyl chloride,42872-29-7,TS,test
+N#CC(c1cccc(c1)C(=O)c2ccccc2)C,1,2-(3-benzoylphenyl)propanenitrile,42872-30-0,TS,train
+N#CC1(NC(=O)CCCC)(CCCC1),0,N-(1-cyanocyclopentyl)pentanamide,194984-24-2,TS,test
+N#Cc1ccc(O)c(O)c1,0,"3,4-dihydroxybenzonitrile",17345-61-8,TR,val
+N#Cc1ccccc1,1,Benzonitrile,100-47-0,TR,test
+N(C)(C)CCCCCCCCCCCCCCCC,0,Hexadecyldimethylamine,1275611-65-8,TR,train
+N(C)(C)CCCCCCN(C)C,0,[6-(dimethylamino)hexyl]dimethylamine,111-18-2,TR,train
+N(CCCCCC(C)C)(CCCCCC(C)C)CCCCCC(C)C,0,tris(6-methylheptyl)amine,25549-16-0,TR,train
+N1=CNC(c2nc[nH]c12)=S,1,6-Mercaptopurine,50-44-2 ,TR,test
+N1C2=CC=CC=C2N=C1C1=CC=CO1,1,Fuberidazole,3878-19-1,TR,test
+N=C(N)C(N=NC(C(=N)N)(C)C)(C)C,0,"2,2'-diazene-1,2-diylbis(2-methylpropanimidamide) dihydrochloride",2997-92-4,TR,train
+NCC1CC2CC(C1(C))C2(C)(C),0,"[(1S,2S,3S,5R)-2,6,6-trimethylbicyclo[3.1.1]heptan-3-yl]methanamine",57357-85-4,TR,train
+NCC1N(CC)CCC1,1,(1-ethylpyrrolidin-2-yl)methanamine,26116-12-1,TR,test
+NCCCCCCC(C)CN,0,"(2R)-2-methyloctane-1,8-diamine",148528-05-6,TR,train
+NCCCCCCN,0,"1,6-Hexanediamine",124-09-4,TR,train
+NCCCN(C)CCCN,1,bis(3-aminopropyl)(methyl)amine,105-83-9,TR,train
+NCCCNCCCCCCCCC=CCCCCCCCC,0,(3-aminopropyl)[(9Z)-octadec-9-en-1-yl]amine,34140-91-5,TS,train
+NCCCNCCCNCCCNCCCCCCCCC=CCCCCCCCC,0,"(Z)-N-(3-aminopropyl)-N'-[3-(9-octadecenylamino)propyl]propane-1,3-diamine",67228-83-5,TR,val
+NCCNc2cccc1ccccc12,0,n-(1-naphthyl)ethylenediamine.2hcl,1465-25-4,TR,train
+NCc1ccccc1,1,phenylmethanamine,100-46-9,TR,train
+Nc1ccc(N)cc1,1,p-Phenylenediamine,106-50-3,TR,train
+Nc1ccc(cc1)-c1ccc(N)cc1,1,Benzidine,92-87-5,TR,train
+Nc1ccc(cc1)Br,1,p-Bromoaniline,106-40-1,TR,train
+Nc1ccc(cc1)Cl,0,P-Chloroaniline,106-47-8,TS,val
+Nc1ccc(cc1)I,0,p-Iodoaniline ,540-37-4 ,TS,val
+Nc1ccc(cc1)Nc2ccccc2,1,N-PHENYL-P-PHENYLENEDIAMINE,101-54-2,TR,test
+Nc1ccc(cc1Cl)Cc2ccc(N)c(c2)Cl,1,"4,4-Methylenebis(2-chloroaniline)",101-14-4,TR,train
+Nc1ccc2c(Cc3ccccc-23)c1,1,2-Fluorenamine,153-78-6,TR,train
+Nc1ccc2cc3ccccc3cc2c1,1,2-Anthracenamine,613-13-8,TR,train
+Nc1cccc(N)c1,1,m-Phenylenediamine,108-45-2,TS,train
+Nc1cccc(N)c1C,1,"2,6-diaminotoluene",823-40-5,TS,train
+Nc1cccc(c1)Cl,1,m-Chloroaniline,108-42-9,TR,train
+Nc1ccccc1,1,Aniline,62-53-3,TR,train
+Nc1nc(N)c2nc(-c3ccccc3)c(N)nc2n1,1,triamterene,396-01-0,TR,test
+Nc3ccc4c1ccc(N)cc1[n+](c(c2ccccc2)c4(c3))CC,0,Ethidium bromide,1239-45-8,TS,train
+O(C)C(OC)C(C)(C)CC=C(C)C,0,"6,6-dimethoxy-2,5,5-trimethylhex-2-ene",67674-46-8,TR,train
+O(C)C1(C)(CCC23(CC1C(C)(C)C3(CCC2(C)))),0,"[3r-(3α,3aβ,6α,7β,8aα)]-octahydro-6-methoxy-3,6,8,8-tetramethyl-1h-3a,7-methanoazulene",67874-81-1,TR,test
+O(CC)C(C)(C)CC,0,2-ethoxy-2-methylbutane,919-94-8,TR,train
+O(CC)C1CC(C)CC(C)(C)C1,0,"3-ethoxy-1,1,5-trimethylcyclohexane",67583-77-1,TR,train
+O(CC)CC,0,ethoxyethane,60-29-7,TR,train
+O(CC)CCOC(C)(C)C,0,2-(2-ethoxyethoxy)-2-methylpropane,51422-54-9,TS,train
+O(CCN(C)C)C(c1ccccc1)c2ccccc2,1,Diphenhydramine,58-73-1,TR,test
+O(COCC(CC)CCCC)CC(CC)CCCC,0,2-ethyl-1-{[(2-ethylhexyl)oxy]methoxy}hexane,22174-70-5,TR,train
+O(OC1(OOC(C)(C)CC)(CCCCC1))C(C)(C)CC,0,"1,1-bis[(2-methylbutan-2-yl)peroxy]cyclohexane",15667-10-4,TS,train
+O(c1ccccc1Cc2ccccc2)CCN(C)C,1,Phenyltoloxamine,92-12-6,TR,train
+O1CC1C2OC2,1,diepoxybutane,1464-53-5,TR,train
+O1CC1CCCCCCCCCC,0,2-decyloxirane,2855-19-8,TS,train
+O1CC1CCCCCCCCCCCCCC,0,2-tetradecyloxirane,7320-37-8,TR,train
+O1CC3(COC1C2CC=CCC2)(COC(OC3)C4CC=CCC4),0,"3,9-bis(cyclohex-3-en-1-yl)-2,4,8,10-tetraoxaspiro[5.5]undecane",6600-31-3,TR,train
+O1c2ccc(cc2(OC1))CC=C,1,Safrole,94-59-7,TS,train
+O3c4ccc5c2ccc1cc6OCOc6(cc1c2[n+](cc5(c4(OC3)))C),0,sanguinarine,2447-54-3,TR,train
+O=C(C(=C(OP(=O)(OC)OC)C)Cl)N(CC)CC,1,Phosphamidon,13171-21-6,TR,train
+O=C(C(Oc1ccc(cc1)Cl)n2cncc2)C(C)(C)C,0,Climbazole,38083-17-9,TS,train
+O=C(C)CCc1ccccc1,0,4-phenylbutan-2-one,2550-26-7,TR,train
+O=C(C=COCC)C(F)(F)F,0,"trans-4-Ethoxy-1,1,1-trifluoro-3-buten-2-one",59938-06-6,TR,train
+O=C(CC)CC(C)CC,0,5-methylheptan-3-one,541-85-5,TR,train
+O=C(N(C)C)C(O)C,0,"2-hydroxy-N,N-dimethyl-propanamide",35123-06-9,TR,test
+O=C(N)C1OC1,1,Glycidamide,5694-00-8,TS,train
+O=C(N)NO,1,Hydroxyurea,127-07-1,TR,train
+O=C(N)c1ccccc1(OCC),1,2-Ethoxybenzamide,938-73-8,TS,train
+O=C(NCC(=O)NCC(F)(F)F)c1ccc(C(=O)C)c2ccccc12,0,"4-Acetyl-N-{2-oxo-2-[(2,2,2-trifluoro-ethyl)-amino]ethyl}-1-naphthamide",1125812-54-5,TR,train
+O=C(NCCN(CC)CC)c1cc(c(N)cc1(OC))Cl,1,metoclopramide,364-62-5,TR,train
+O=C(NCCO)c2c([n+]([O-])c1ccccc1[n+]2([O-]))C,1,Olaquindox,23696-28-8,TR,train
+O=C(NCc1ccccc1)Cn2ccnc2[N+](=O)[O-],1,Benznidazole,22994-85-0,TS,train
+O=C(Nc1cc(c(cc1(OC))S(=O)(=O)O)C)C(N=Nc2ccc(cc2)c4nc3ccc(c(c3s4)S(=O)(=O)O)C)C(=O)C,0,ammonium sodium 2-[4-[[1-[[(2-methoxy-5-methyl-4-sulphonatophenyl)amino]carbonyl]-2-oxopropyl]azo]phenyl]-6-methylbenzothiazole-7-sulphonate,72705-24-9,TR,train
+O=C(Nc1ccc(O)cc1)C,1,Acetaminophen,103-90-2,TR,train
+O=C(Nc1ccc(OCC)cc1)C,0,Phenacetin,62-44-2,TR,train
+O=C(Nc1ccc(c(c1)Nc2nccc(n2)c3cnccc3)C)c4ccc(cc4)CN5CCN(C)CC5,0,"gleveec,3-chloro-phenylhydrazone",152459-95-5,TR,train
+O=C(Nc1ccc(cc1)C(C)C)N(C)C,1,isoproturon,34123-59-6,TR,train
+O=C(Nc1ccccc1)C(N=Nc2ccc(cc2(OC))c4ccc(N=NC(C(=O)Nc3ccccc3)C(=O)C)c(OC)c4)C(=O)C,0,2-[(E)-2-(2-methoxy-4-{3-methoxy-4-[(E)-2-[2-oxo-1-(phenylcarbamoyl)propyl]diazen-1-yl]phenyl}phenyl)diazen-1-yl]-3-oxo-N-phenylbutanamide,6505-28-8,TS,test
+O=C(Nc1ccccc1C)c4cc2ccccc2c(N=Nc3cc(c(cc3Cl)Cl)Cl)c4(O),0,"3-hydroxy-N-(2-methylphenyl)-4-[(E)-2-(2,4,5-trichlorophenyl)diazen-1-yl]naphthalene-2-carboxamide",6535-46-2,TR,train
+O=C(Nc2ccc3c1ccccc1Cc3(c2))C,1,2-acetylaminofluorene,53-96-3,TR,train
+O=C(Nc3cc(c(N=Nc2cc1c(cccc1S(=O)(=O)O)c(c2)S(=O)(=O)O)cc3(OC))C)Nc6cc(c(N=Nc5cc4c(cccc4S(=O)(=O)O)c(c5)S(=O)(=O)O)cc6(OC))C,0,"tetrasodium 3-[(E)-2-{4-[({4-[(E)-2-(4,8-disulfonatonaphthalen-2-yl)diazen-1-yl]-2-methoxy-5-methylphenyl}carbamoyl)amino]-5-methoxy-2-methylphenyl}diazen-1-yl]naphthalene-1,5-disulfonate",6420-33-3,TR,train
+O=C(O)C,1,acetate,"373-02-4(1), 1066-30-4(1)",TR,train
+O=C(O)C(CC)Cl,1,2-chloro-n-butyricacid,4170-24-5,TS,train
+O=C(O)C(Cc1cc(c(F)cc1Cl)N2N=CN(C2(=O))C(F)F)Cl,0,Carfentrazone-ethyl,128639-02-1,TR,train
+O=C(O)C1=CN(c2cc(c(F)cc2(C1(=O)))N3CCN(CC)CC3)C4CC4,1,Enroﬂoxacin,93106-60-6,TS,train
+O=C(O)C1=CN(c2cc(c(F)cc2(C1(=O)))N3CCNCC3)C4CC4,1,Ciproﬂoxacin,86393-32-0,TR,test
+O=C(O)C1NCC(O)C1,0,(2S)-4-hydroxypyrrolidine-2-carboxylic acid,51-35-4,TR,train
+O=C(O)C2=CN1c3c(OCC1C)c(c(F)cc3(C2(=O)))N4CCN(C)CC4,1,Oﬂoxacin,85344-55-4,TR,train
+O=C(O)C=CC=CC=CC=CC(=O)OC2CCC1(OC1)C(C2(OC))C3(OC3(CC=C(C)C))(C),1,fumagillin,23110-15-8,TR,train
+O=C(O)CC(O)(C(=O)O)CC(=O)O,1,"2-hydroxypropane-1,2,3-tricarboxylic acid",77-92-9,TR,train
+O=C(O)CCC(NC(=O)c1ccc(cc1)N(C)Cc2nc3c(nc2)nc(nc3(N))N)C(=O)O,1,"methotrexate
+pteridinyl)methyl)methylamino)benzoyl),-,l-](1)",59-05-2,TR,test
+O=C(O)CCCCCCCCCCCCCCC(C)C,0,potassium 16-methylheptadecanoate,66469-15-6,TR,train
+O=C(O)CCCCCNc1nc(nc(n1)NCCCCCC(=O)O)NCCCCCC(=O)O,0,"6-({bis[(5-carboxypentyl)amino]-1,3,5-triazin-2-yl}amino)hexanoic acid",80584-91-4,TR,train
+O=C(O)CN(CC(=O)O)CCN(CC(=O)O)CC(=O)O,0,manganesedisodiumedtatrihydrate,15375-84-5,TS,train
+O=C(O)NCCCCCCN,0,(6-aminohexyl)carbamic acid,143-06-6,TR,train
+O=C(O)c1c(ccs1)S(=O)(=O)NC(=O)Nc2nc(nc(n2)C)OC,0,Thifensulfuron-methyl,79277-27-3,TR,train
+O=C(O)c1cc(N)cc(N)c1,0,"3,5-Diaminobenzoicacid",535-87-5,TR,val
+O=C(O)c1cc2OCOc2c2c3cccc(OC)c3cc(c12)[N+](=O)[O-],1,Aristolochic acid,313-67-7,TS,train
+O=C(O)c1ccc(cc1(N))[N+](=O)[O-],0,4-Nitroanthranilic acid,619-17-0,TR,val
+O=C(O)c1cccc(c1)S(=O)(=O)O,0,sodium hydrogen 3-sulfonatobenzoate,17625-03-5,TR,train
+O=C(O)c1ccccc1,0,benzoic acid,65-85-0,TR,train
+O=C(O)c1ccccc1(N),1,o-Anthranilic acid,118-92-3,TR,val
+O=C(O)c1ccccc1(OC(=O)C),1,acetylsalicilicacid,50-78-2,TR,train
+O=C(O)c2ccccc2(Nc1ccc(N)cc1[N+](=O)[O-]),1,2-Nitro-4-amino-diphenylamine-2-carboxylic acid,117907-43-4,TR,train
+O=C(O)c3ccccc3(C(=O)c1ccc(cc1)c2ccccc2),0,2-(4-Phenylbenzoyl)benzoic acid,42797-18-2,TS,test
+O=C(OC(=O)CCCCC)CCCCC,0,hexanoyl hexanoate,2051-49-2,TR,val
+O=C(OC(C)CS(=O)(=O)O)CCCCCCCCCCC,0,disodium (2R)-2-(dodecanoyloxy)propane-1-sulfonate (2S)-2-(dodecanoyloxy)propane-1-sulfonate,156572-81-5,TR,train
+O=C(OC(C=C)(C)CCC=C(C)C)C,1,Linalyl acetate,115-95-7,TR,test
+O=C(OC(c1ccccc1)C)Cc4c2cc(OC)ccc2n(C(=O)c3ccc(cc3)Cl)c4C,1,"2-amino-3-methyl-9h-pyrido-[2,3-b]indoleacetate",63170-60-5,TR,train
+O=C(OC)C(=C)C,1,Methyl methacrylate,80-62-6,TS,val
+O=C(OC)Nc1nc2cc(ccc2([nH]1))C(=O)c3ccccc3,1,Mebendazole,31431-39-7,TR,train
+O=C(OC)Nc1nc2cc(ccc2([nH]1))C(=O)c3cccs3,1,cyanoginosin,101043-37-2,TR,test
+O=C(OC)Nc1nc2cc(ccc2([nH]1))S(=O)CCC,1,Albendazole oxide,54029-12-8,TS,train
+O=C(OC)Nc1nc2ccc(cc2([nH]1))C(=O)c3ccc(F)cc3,1,Flubendazole,31430-15-6,TS,train
+O=C(OC)Nc1nc2ccccc2([nH]1),1,2-benzimidazolecarbamate,10605-21-7,TR,train
+O=C(OC)Nc2nc1ccccc1n2(C(=O)NCCCC),1,benomyl,17804-35-2,TR,train
+O=C(OC)c1ccc(cc1)C(=O)OC,0,dimethyl terephthalate,120-61-6,TR,test
+O=C(OC)c1ccccc1,0,methyl benzoate,93-58-3,TS,train
+O=C(OC1C(O)C(OC(CO)C1(O))OC6C(OC(c2cnc[nH]2)C(NC(=O)c3nc(nc(N)c3C)C(NCC(N)C(=O)N)CC(=O)N)C(=O)NC(C)C(O)C(C(=O)NC(C(=O)NCCc4nc(cs4)c5nc(cs5)C(=O)NCCC[S+](C)C)C(O)C)C)OC(CO)C(O)C6(O))N,1,Bleomycin sulphate,11056-06-7,TS,train
+O=C(OC1CC(C)CC(C)(C)C1)C(=C)C,0,"3,3,5-trimethylcyclohexyl 2-methylprop-2-enoate",7779-31-9,TS,val
+O=C(OC1CC(C)CC(C)(C)C1)C=C,0,"(3,3,5-trimethylcyclohexyl) prop-2-enoate",86178-38-3,TR,train
+O=C(OC1CC(C)CCC1C(C)C)C,0,"(1R,2S,5R)-5-methyl-2-(propan-2-yl)cyclohexyl acetate(1), Menthyl acetate",82576-75-20,TR,train
+O=C(OC2C(O)(C(=O)OC)C5N(c1cc(OC)c(cc1C45(CCN3CC=CC2(CC)C34))C9(C(=O)OC)(c7[nH]c6ccccc6c7CCN8CC(CC(O)(C8)CC)C9))C)C,1,"vinblastine, VINBLASTINE SULPHATE",865-21-4,TR,train
+O=C(OC3C5C6(OC(=O)C)(COC6(CC(O)C5(C(=O)C(OC(=O)C)C4=C(C)C(OC(=O)C(O)C(NC(=O)c1ccccc1)c2ccccc2)CC3(O)C4(C)C)(C))))c7ccccc7,1,Paclitaxel,33069-62-4,TS,train
+O=C(OCC(CC)CCCC)C=C,0,2-Ethylhexyl acrylate,103-11-7,TR,train
+O=C(OCC(CC)CCCC)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)O,0,"sodium 1,4-bis[(2-ethylhexyl)oxy]-1,4-dioxobutane-2-sulfonate",577-11-7,TR,train
+O=C(OCC(O)C)OC1CC(C)CCC1C(C)C,0,"2-hydroxypropyl [(1R,2S,5R)-2-isopropyl-5-methyl-cyclohexyl] carbonate",260781-16-6,TR,train
+O=C(OCC)C2OC2(c1ccccc1),1,ethyl 3-phenyloxirane-2-carboxylate,121-39-1,TS,train
+O=C(OCC)CC,0,ethyl propanoate,105-37-3,TR,train
+O=C(OCC)CC(=O)C,1,"tris(ethyl acetoacetato-O1',O3)aluminium",15306-17-9,TR,test
+O=C(OCC)CC(C(=O)OCC)SP(OC)(OC)=S,1,Malathion,121-75-5,TR,val
+O=C(OCC)CC(C)C,0,ethyl 3-methylbutanoate,108-64-5,TS,train
+O=C(OCC)N,0,Urethane,51-79-6,TS,train
+O=C(OCC)OC1CCCCC1C(C)(C)C,0,2-tert-butylcyclohexyl ethyl carbonate,67801-64-3,TR,val
+O=C(OCC)OCC,1,diethyl carbonate,105-58-8,TR,test
+O=C(OCC)c1ccc(O)cc1,0,ethyl 4-hydroxybenzoate,9001-05-2,TR,train
+O=C(OCC)c1nccc(c1)C(=O)OCC,0,"2,4-Pyridinedicarboxylic acid, diethyl ester",41438-38-4,TR,test
+O=C(OCC1OC1)C(=C)C,1,Glycidyl methacrylate,106-91-2,TS,train
+O=C(OCC2CCC3C1CC(CC1(COC(=O)C(=C)C))C23)C(=C)C,0,"octahydro-1H-4,7-methanoindene-1,1-diylbis(methylene) bis(2-methylacrylate)",43048-08-4,TR,test
+O=C(OCC4C=1C(=O)C(N)=C(C(=O)C=1N3CC2NC2C34(OC))C)N,1,Mitomycin C,50-07-7,TR,train
+O=C(OCC=C(C)CCC=C(C)C)C,0,"(2E)-3,7-dimethylocta-2,6-dien-1-yl acetate",141-12-8,TR,train
+O=C(OCC=C(C=CC=C(C=CC1=C(C)CCCC1(C)C)C)C)C,1,Retinol acetate,127-47-9,TR,val
+O=C(OCC=C)CCC1CCCCC1,0,prop-2-en-1-yl 3-cyclohexylpropanoate,2705-87-5,TR,train
+O=C(OCC=C)CCCCC,0,prop-2-en-1-yl hexanoate,123-68-2,TS,train
+O=C(OCC=C)CCCCCC,0,prop-2-en-1-yl heptanoate,142-19-8,TR,test
+O=C(OCCC(C)C)CC(C)C,0,3-methylbutyl 3-methylbutanoate,659-70-1,TR,train
+O=C(OCCCCCCCCCCOC(=O)C(=C)C)C(=C)C,0,10-[(2-methylprop-2-enoyl)oxy]decyl 2-methylprop-2-enoate,6701-13-9,TR,train
+O=C(OCCCCCCCCCCOC(=O)C=C)C=C,0,10-(prop-2-enoyloxy)decyl prop-2-enoate,13048-34-5,TR,train
+O=C(OCCO)C(=C)C,1,2-Hydroxyethyl methacrylate,868-77-9,TS,train
+O=C(OCCOC)C2=C(NC(=C(C(=O)OC(C)C)C2(c1cccc(c1)[N+](=O)[O-]))C)C,1,Nimodipine,66085-59-4,TR,train
+O=C(OCCOCC)C(=C)C,0,2-ethoxyethyl 2-methylprop-2-enoate,2370-63-0,TR,train
+O=C(OCCOCCOCCOC(=O)C(=C)C)C(=C)C,1,Triethylene glycol dimethacrylate,109-16-0,TS,test
+O=C(OCCc1ccccc1)Cc2ccccc2,0,2-phenylethyl 2-phenylacetate,102-20-5,TR,val
+O=C(OCc1ccc(OC)cc1)C,0,(4-methoxyphenyl)methyl acetate,104-21-2,TR,train
+O=C(OCc1ccccc1)C=Cc2ccccc2,0,benzyl (2E)-3-phenylprop-2-enoate,103-41-3,TR,test
+O=C(OCc1ccccc1)Cc2ccccc2,0,benzyl 2-phenylacetate,102-16-9,TR,train
+O=C(ON=C(C)SC)NC,1,Methomyl,16752-77-5,TS,train
+O=C(ON=CC(C)(C)SC)NC,1,aldicarb,116-06-3,TS,train
+O=C(OOC(=O)C(C)C)C(C)C,1,2-methylpropanoyl 2-methylpropaneperoxoate,3437-84-1,TR,train
+O=C(OOC(=O)OC1CCC(CC1)C(C)(C)C)OC2CCC(CC2)C(C)(C)C,0,1-tert-butyl-4-{[({[(4-tert-butylcyclohexyl)oxy]carbonyl}peroxy)carbonyl]oxy}cyclohexane,15520-11-3,TR,val
+O=C(OOC(=O)OCC(CC)CCCC)OCC(CC)CCCC,0,3-({[({[(2-ethylhexyl)oxy]carbonyl}peroxy)carbonyl]oxy}methyl)heptane,16111-62-9,TR,test
+O=C(Oc1ccccc1(OC(C)C))NC,1,Propoxur,114-26-1,TR,train
+O=C(c1cc(cc(c1)Cl)C(F)(F)F)C(F)(F)F,0,"1-[3-chloro-5-(trifluoromethyl)phenyl]-2,2,2-trifluoroethanone",1125812-58-9,TR,test
+O=C(c1ccc(cc1)C)C,0,1-(4-methylphenyl)ethan-1-one,122-00-9,TR,train
+O=C(c1ccccc1)C(O)c2ccccc2,1,Benzoin,579-44-2,TR,train
+O=C(c1ccccc1)CC(=O)CCCCCCC,0,"1-phenyldecane-1,3-dione",68892-13-7,TR,train
+O=C(c2ccc(Oc1ccccc1)cc2)c3ccc(cc3)C(=O)c5ccc(Oc4ccccc4)cc5,0,"1,4-phenylene bis[(4-phenoxyphenyl)-methanone]",54299-17-1,TR,test
+O=C1C(=C(N)C=NN1c2ccccc2)Cl,1,Chloridazon,1698-60-8,TR,train
+O=C1C=C(C(=C(O)N1)C)C,1,"2,6-DIHYDROXY-3,4-DIMETHYLPYRIDINE",84540-47-6,TR,train
+O=C1C=C(OC=C1(O))CO,1,Kojic Acid,501-30-4,TR,train
+O=C1C=C3C(=CC=C1(OC))c2c(OC)c(OC)c(OC)cc2CCC3(NC(=O)C),1,Colchicine,64-86-8,TR,val
+O=C1C=C3C(=CC=C1(OC))c2c(OC)c(OC)c(OC)cc2CCC3(NC),1,N-deacetyl-N-methylcolchicine; colcemid,477-30-5,TR,train
+O=C1C=CC(=O)NN1,0,Maleic hydrazide,123-33-1,TS,train
+O=C1C=CC3(C(=C1)CCC2C4CC(C)C(O)(C(=O)CO)C4(C)(CC(O)C23(F)))(C),1,dexamethasone,50-02-2,TR,train
+O=C1C=CN(C(=O)N1)C4OC(C(O)CC3OC(OC2OC(CO)C(O)C(O)C2(NC(=O)C))C(NC(=O)C=CCC(C)C)C(O)C3(O))C(O)C4(O),1,tunicamycin,11089-65-9,TR,train
+O=C1N(CCC1)CCCC,0,1-butylpyrrolidin-2-one,3470-98-2,TR,val
+O=C1N(CCO)CCC1,0,1-(2-hydroxyethyl)pyrrolidin-2-one,3445-11-2,TR,val
+O=C1N(c3ccc(cc3(C(=NC1)c2ccccc2))Cl)C,1,Diazepam,439-14-5,TR,train
+O=C1N=C(N)C=CN1C2OC(CO)C(O)C2(O),1,Cytosine arabinoside,147-94-4,TS,val
+O=C1NC(=O)C(C(=O)N1)(CC)CC,1,Barbital,57-44-3,TR,train
+O=C1NC(=O)N(C=C1CCCl)C2OC(CO)C(O)C2,0,5-(2-Chloroethyl)2-deoxyuridine,90301-59-0,TR,train
+O=C1NC=C(F)C(=O)N1,1,5-Fluorouracil,51-21-8,TR,test
+O=C1Nc2cc(cc(c2(NC1(=O)))CNCP(=O)(O)O)[N+](=O)[O-],1,AMP397,188696-80-2,TR,train
+O=C1OC(=CCCCC)C(=C1C)C,1,"3,4-Dimethyl-5-pentylidene-2(5H)-furanone",774-64-1,TR,train
+O=C1OC(C(=C1(O))C)CC,0,5-ethyl-3-hydroxy-4-methylfuran-2(5H)-one,698-10-2,TS,train
+O=C1OC(C(O)=C1(O))C(O)CO,1,L-ascorbic acid,50-81-7,TR,train
+O=C1OC(C)Cc2c1c(O)c(cc2Cl)C(=O)NC(C(=O)O)Cc3ccccc3,1,ochratoxin A,303-47-9,TR,train
+O=C1OC(O)C(=C1Cl)C(Cl)Cl,1,3-chloro-4-(dichloromethyl)-5-hydroxy-2(5h)-furanone(akamx),77439-76-0,TS,train
+O=C1OC(c2ccc(OC)c(OC)c12)C4c3c(OC)c5OCOc5(cc3CCN4(C)),1,noscapine,912-60-7,TR,train
+O=C1OC2CCCCC2(CC1),0,octahydro-2H-1-benzopyran-2-one,4430-31-3,TR,train
+O=C1OCC=C1,1,Furan-2(5H)-one,207-839-3,TR,val
+O=C1Oc2ccccc2C=C1,0,Coumarin,91-64-5,TR,train
+O=C1c3cc(O)cc(O)c3(C(=O)c2c(O)cc(cc12)C),1,Emodin,518-82-1,TR,test
+O=C1c3cccc(O)c3(C(=O)c2c(O)cccc12),1,Chrysazin,117-10-2,TR,val
+O=C1c3ccccc3(C(=O)c2c(N)ccc(N)c12),1,disperse violet 1,128-95-0,TS,train
+O=C1c3ccccc3(C(=O)c2cc(N)ccc12),1,2-Aminoanthraquinone,117-79-3,TR,train
+O=C1c4ccccc4(C(=O)C1c2nc3c(cc2)cc(cc3S(=O)(=O)O)S(=O)(=O)O),0,"disodium 2-(1,3-dioxo-2,3-dihydro-1H-inden-2-yl)quinoline-6,8-disulfonate",8004-92-0,TS,train
+O=C1c5cccc(OC)c5(C(=O)c2c(O)c4c(c(O)c12)CC(O)(C(=O)CO)CC4(OC3OC(C)C(O)C(N)C3)),1,Doxorubicin,23214-92-8,TS,train
+O=C2C=Cc3ccc(cc3(C2(=NNc1ccc(N)c(c1)[N+](=O)[O-])))[N+](C)(C)C,0,basic brown 17,68391-32-2,TS,train
+O=C2OCC=1C(=O)N4C(=CC=1C2(O)CC)c3nc5ccccc5(cc3C4),1,camptothecin,7689-03-4,TR,test
+O=C2c1c(ncn1C)N(C(=O)N2C)C,1,caffeine,58-08-2,TS,train
+O=C2c1ccccc1c3ccc(c4cccc2c34)[N+](=O)[O-],1,3-Nitrobenzanthrone,17117-34-9,TR,train
+O=C3C=C(OC)C2(Oc1c(c(OC)cc(OC)c1Cl)C2(=O))C(C)C3,1,Griseofulvin,126-07-8,TR,train
+O=C3NC(c1ccc(cc1)Cl)=C4C(=O)NC(c2ccc(cc2)Cl)=C34,0,"3,6-Bis(4-chlorophenyl)pyrrolo[3,4-c]pyrrole-1,4(2H,5H)-dione",84632-65-5,TR,test
+O=C3OCC4C(O)c1cc5OCOc5(cc1C(c2cc(OC)c(OC)c(OC)c2)C34),1,Podofilox,518-28-5,TR,val
+O=C3c5ccc1OC(C(=C)C)Cc1c5(OC4COc2cc(OC)c(OC)cc2C34),1,Rotenone,83-79-4,TR,val
+O=C4C=C3CCC2C(CCC1(C)(C2(CCC1(O)(C(=O)C))))C3(C)CC4,1,"(1S,2R,10R,11S,14R,15S)-14-acetyl-14-hydroxy-2,15-dimethyltetracyclo[8.7.0.0²,⁷.0¹¹,¹⁵]heptadec-6-en-5-one",68-96-2,TS,train
+O=C4Oc2c(c(OC)cc1OC3OC=CC3(c12))C5=C4C(=O)CC5,1,Aflatoxin B1,1162-65-8,TR,test
+O=C5OCC6C(OC1OC2COC(OC2(C(O)C1(O)))C)c3cc7OCOc7(cc3C(c4cc(OC)c(O)c(OC)c4)C56),1,Etoposide,33419-42-0,TR,test
+O=C6OC(C)C(NC(=O)c2ccc(c1OC=5C(=Nc12)C(C(=O)NC3C(=O)NC(C(=O)N4CCCC4(C(=O)N(C)CC(=O)N(C)C(C(=O)OC3(C))C(C)C))C(C)C)=C(N)C(=O)C=5C)C)C(=O)NC(C(=O)N7CCCC7(C(=O)N(C)CC(=O)N(C)C6C(C)C))C(C)C,1,Actinomycin D,50-76-0,TR,train
+O=C6c4c(O)cc(O)c5c3c(O)cc(O)c2C(=O)c1c(O)cc(c8c1c(c23)c(c45)c7c6c(O)cc(c78)C)C,1,Hypericin,548-04-9,TR,train
+O=C=NCCCCCN=C=O,0,"1,5-Diisocyanatopentane",4538-42-5,TS,train
+O=CC(=C)C,1,2-methylprop-2-enal,78-85-3,TR,train
+O=CC(C)C,0,2-methylpropanal,78-84-2,TR,train
+O=CC1=CCC(C(=C)C)CC1,0,perillaldehyde,18031-40-8‎,TR,val
+O=CNC=C,0,N-ethenylformamide,13162-05-5,TR,train
+O=NN(C(=N)N[N+](=O)[O-])C,1,N-Methyl-N-nitro-N-nitrosoguanidine,70-25-7,TR,train
+O=NN(C(=N[N+](=O)[O-])N)CC,1,N-Ethyl-N-nitro-N-nitrosoguanidine,4245-77-6,TS,test
+O=NN(C(=O)N)CC,1,N-Ethyl-N-nitrosourea,759-73-9,TR,train
+O=NN(C(=O)NCCCl)CCCl,0,"1,3-bis(2-chloroethyl)nitrosurea",154-93-8,TR,test
+O=NN(C)C,1,Dimethylnitrosamine,62-75-9,TR,train
+O=NN(CCCC(=O)O)CCCC,1,N-butyl-N-(3-carboxypropyl)nitrosamine,38252-74-3,TR,train
+O=NN(c1ccccc1)c2ccccc2,0,N-nitrosodiphenylamine,86-30-6,TR,train
+O=NN1CCOCC1,1,N-NITROSOMORPHOLINE,59-89-2,TR,train
+O=P(N(C)C)(N(C)C)N(C)C,1,Hexamethylphosphoramide,680-31-9,TS,val
+O=P(OCC)(OCC)Cc1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C,0,"diethyl (3,5-di-tert-butyl-4-hydroxybenzyl)phosphonate",976-56-7,TR,val
+O=P(Oc1ccccc1)(N)N,0,phenyl diamidophosphate,7450-69-3,TR,train
+O=P1(OCCCN1)N(CCCl)CCCl,1,Cyclophosphamide,50-18-0,TR,train
+O=S(=O)(Nc4ccc(Nc2c3ccccc3(nc1ccccc12))c(OC)c4)C,1,m-Amsacrine,54301-15-4,TS,train
+O=S(=O)(O)CCCS,0,sodium 3-sulfanylpropane-1-sulfonate,17636-10-1,TR,train
+O=S(=O)(O)CCC[n+]1ccccc1,0,1-(3-sulfonatopropyl)pyridin-1-ium,15471-17-7,TR,train
+O=S(=O)(O)c3cc2cc(c(N=Nc1ccccc1S(=O)(=O)O)c(O)c2c(c3)Nc4nc(nc(n4)Cl)Nc5ccc(cc5)Nc6nc(nc(n6)Cl)Nc9cc(cc8cc(c(N=Nc7ccccc7S(=O)(=O)O)c(O)c89)S(=O)(=O)O)S(=O)(=O)O)S(=O)(=O)O,0,"hexasodium 8-{[(2E)-6-chloro-4-[(4-{[(4Z)-6-chloro-4-({8-oxido-6-sulfo-3-sulfonato-7-[(E)-2-(2-sulfonatophenyl)diazen-1-yl]naphthalen-1-yl}imino)-4,5-dihydro-1,3,5-triazin-2-yl]amino}phenyl)amino]-1,2-dihydro-1,3,5-triazin-2-ylidene]amino}-3-sulfo-6-sulfonato-2-[(E)-2-(2-sulfonatophenyl)diazen-1-yl]naphthalen-1-olate",68214-04-0,TS,train
+O=S(=O)(O)c6ccc5c(ccc(O)c5(N=Nc3ccc(N=Nc2ccc(Nc1ccccc1)c(c2)S(=O)(=O)O)c4ccccc34))c6,1,disodium 6-hydroxy-5-[(E)-2-{4-[(E)-2-[4-(phenylamino)-3-sulfonatophenyl]diazen-1-yl]naphthalen-1-yl}diazen-1-yl]naphthalene-2-sulfonate,6262-07-3,TR,train
+O=S(=O)(OC(C)C)C,1,Isopropyl methanesulfonate,926-06-7,TR,test
+O=S(=O)(OC)C,1,Methyl methanesulphonate,66-27-3,TR,val
+O=S(=O)(OC)OC,1,Dimethylsulfate,77-78-1,TR,val
+O=S(=O)(OC)c1ccc(cc1)C,1,methyl 4-methylbenzene-1-sulfonate,80-48-8,TR,val
+O=S(=O)(OC)c1ccccc1,1,Methyl benzenesulfonate,80-18-2,TS,train
+O=S(=O)(OCC)C,1,Ethyl methanesulphonate,62-50-0,TR,train
+O=S(=O)(OCC)OCC,1,Diethyl sulfate,64-67-5,TS,train
+O=S(=O)(OCCC)C,1,n-Propyl methanesulfonate,1912-31-8,TR,train
+O=S(=O)(OCCC)OCCC,1,Dipropyl sulfate,598-05-0,TS,test
+O=S(=O)(OCCCC)OCCCC,1,Dibutyl sulfate,625-22-9,TR,train
+O=S(=O)(OCCCC)c1ccccc1,1,n-Butyl benzenesulfonate,80-44-4,TR,val
+O=S(=O)(OCCCCOS(=O)(=O)C)C,1,Busulfan,55-98-1,TR,train
+O=S(=O)(c1ccccc1)Cl,1,benzenesulfonyl chloride,98362-33-5,TR,train
+O=S(=O)(c1ccccc1)N(c2ccccc2)SC(Cl)(Cl)Cl,1,N-phenyl-N-[(trichloromethyl)sulfanyl]benzenesulfonamide,2280-49-1,TR,train
+O=S(c1nc2cc(OC)ccc2([nH]1))Cc3ncc(c(OC)c3C)C,1,Nocodazole,31430-18-9,TR,train
+O=S(c1nc2ccccc2([nH]1))Cc3nccc(OCC(F)(F)F)c3C,1,Lansoprazole,103577-45-3,TS,val
+O=S4(=O)(OC(c1cc(c(O)c(c1)Br)Br)(c2cc(c(O)c(c2)Br)Br)c3c(c(c(c(c34)Br)Br)Br)Br),0,tetrabromophenolblue,4430-25-5,TR,train
+O=[N+]([O-])C(C)C,1,2-Nitropropane,79-46-9,TR,train
+O=[N+]([O-])c1cc(NCC)c(O)c(c1)Cl,1,2-Chloro-6-ethylamino-4-nitrophenol,131657-78-8,TR,test
+O=[N+]([O-])c1cc(NCCO)c(cc1(N))C,0,HC violet 1,82576-75-8,TR,test
+O=[N+]([O-])c1cc(O)ccc1(N),1,4-Amino-3-nitrophenol,610-81-1,TR,val
+O=[N+]([O-])c1cc(O)ccc1(NCCO),1,3-NITRO-P-HYDROXYETHYLAMINOPHENOL,65235-31-6,TR,train
+O=[N+]([O-])c1cc(c2ccc(cc2(c1(O)))S(=O)(=O)O)[N+](=O)[O-],0,Acid Yellow 1,846-70-8,TR,test
+O=[N+]([O-])c1cc(ccc1(N))N(CCO)CCO,1,HC Red n° 13,94158-13-1,TS,val
+O=[N+]([O-])c1cc(ccc1(N))NCCO,1,hc red 7,24905-87-1,TR,train
+O=[N+]([O-])c1cc(ccc1(NCCO))N(CC)CCO,1,HC Blue 12,132885-85-9,TR,train
+O=[N+]([O-])c1cc(ccc1(NCCO))N(CCO)CCO,1,hc blue 2,33229-34-4,TR,val
+O=[N+]([O-])c1cc(ccc1(NCCO))NCCO,1,"N,N'-Bis(hydroxyethyl)-2-nitro-p-phenylenediamine",84041-77-0,TR,train
+O=[N+]([O-])c1cc[n+]([O-])c2ccccc12,1,4-nitroquinoline-N-oxide,56-57-5,TR,train
+O=[N+]([O-])c1ccc(N)c(N)c1,0,4-Nitroo-phenylenediamine,99-56-9,TR,train
+O=[N+]([O-])c1ccc(NCCO)c(OC)c1,1,2-Hydroxyethylamino-5-nitroanisole,66095-81-6,TR,train
+O=[N+]([O-])c1ccc(OCCO)cc1(NC),0,3-methylamino-4-nitrophenoxyethanol,59820-63-2,TR,train
+O=[N+]([O-])c1cccc(c1)C,1,m-Nitrotoluene,99-08-1,TR,test
+O=[N+]([O-])c1ccccc1,1,Nitrobenzene,98-95-3,TR,test
+O=[N+]([O-])c1ccccc1C,1,o-Nitrotoluene,88-72-2,TR,train
+O=[N+]([O-])c2ccc3c1ccccc1Cc3(c2),1,2-Nitroﬂuorene,607-57-8,TR,train
+O=[N+]([O-])c2cnc(c1nnc(N)s1)n2C,1,Megazol,19622-55-0,TR,train
+O=[N+]([O-])c2oc3ccc1cc(OC)ccc1c3(c2),1,"7-methoxy-2-nitronaphthol(2,1-b)furan",75965-74-1,TS,train
+O=[N+]([O-])c3ccc1ccc4c2c(ccc3(c12))ccc4[N+](=O)[O-],1,"1,6-Dinitropyrene",42397-64-8,TR,val
+O=[N+]([O-])c5ccc2ccc3c1ccccc1c(c4ccc5(c2c34))[N+](=O)[O-],1,"3,6-Dinitrobenzopyrene",128714-76-1,TS,train
+OC(=O)C(Cl)Cl,0,Dichloroacetic acid,79-43-6,TR,train
+OC(=O)C1=CN(C2CC2)C2=CC(N3CCNCC3)=C(F)C=C2C1=O,1,Ciprofloxacin,85721-33-1,TS,train
+OC(=O)CC[N+]([O-])=O,0,β-Nitropropionic acid,504-88-1,TR,train
+OC(=O)CN(CC(O)=O)CC(O)=O,1,nitrilotriacetic acid,139-13-9,TR,val
+OC(C)(C)CCCC(C)C,0,"2,6-dimethylheptan-2-ol",13254-34-7,TS,train
+OC(COc2cccc3[nH]c1ccccc1c23)CNCCOc4ccccc4(OC),0,Carvedilol,72956-09-3,TR,train
+OC(O)C(Cl)(Cl)Cl,1,Chloral hydrate,302-17-0,TR,train
+OC(c1ccccc1)CNCCc2ccc(N)cc2,0,(1R)-2-{[2-(4-aminophenyl)ethyl]amino}-1-phenylethanol hydrochloride,521284-22-0,TR,train
+OC1CC(C)CCC1(C(=C)C),0,2-isopropenyl-5-methylcyclohexanol,7786-67-6,TS,train
+OC1N=C(c2ccccc2)c2cc(Cl)ccc2NC1=O,1,Oxazepam,604-75-1,TS,train
+OC1OCC=C2OC(=O)C=C12,1,patulin,149-29-1,TR,train
+OC6c4cc1ccc2cccc3ccc(c1c23)c4C5OC5C6(O),1,"benzo[a]pyrene-7,8-diol-9,10-epoxide",58917-67-2,TR,train
+OCC(O)CCCCCCCC,0,"decane-1,2-diol",1119-86-4,TR,train
+OCC1NCCC1,0,L-(pyrrolidin-1-yl)methanol,23356-96-9,TS,val
+OCCCN(C)C,0,3-(dimethylamino)propan-1-ol,3179-63-3,TR,train
+OCCN(c1ccc(N)cc1)CCO,1,"N,N-Bis(2-hydroxyethyl)-p-phenylenediamine sulfate",54381-16-7,TR,train
+OCCNc1ccc(OC)c(N)c1,1,2-Amino-4-hydroxyethylaminoanisole sulfate,83763-48-8,TR,test
+OCCNc1ccc2OCOc2(c1),0,"2-[(2H-1,3-benzodioxol-5-yl)amino]ethan-1-ol hydrochloride",94158-14-2,TR,test
+OCCOc1ccc(N)cc1(N),1,"2,4-Diaminophenoxyethanol HCl",66422-95-5,TS,train
+OCCOc1ccc(cc1)C(c2ccc(OCCO)cc2)(C)C,0,2-(4-{2-[4-(2-hydroxyethoxy)phenyl]propan-2-yl}phenoxy)ethan-1-ol,901-44-0,TR,train
+OCC[N+](C)(CCO)CCO,0,tris(2-hydroxyethyl)methylammonium methyl sulphate,29463-06-7,TS,train
+OCc1ccc(OC)cc1,0,(4-methoxyphenyl)methanol,105-13-5,TR,train
+OO,1,Hydrogen peroxide,7722-84-1,TR,test
+O[Sn](c1ccccc1)(c1ccccc1)c1ccccc1,1,Fentin Hydroxide,76-87-9,TS,train
+Oc1c(cc(cc1C2CCCCC2)C)Cc3cc(cc(c3(O))C4CCCCC4)C,0,2-cyclohexyl-6-[(3-cyclohexyl-2-hydroxy-5-methylphenyl)methyl]-4-methylphenol,4066-02-8,TR,test
+Oc1cc(N)c(cc1C)Cl,1,5-Amino-4-chloro-o-cresol HCl,110102-85-7,TR,train
+Oc1cc(N)ccc1C,1,4-Amino-2-hydroxytoluene,2835-95-2,TR,test
+Oc1cc(ccc1(N))C,1,2-amino-5-methylphenol,2835-98-5,TR,train
+Oc1ccc(N)c(c1)C,1,4-amino-3-methylphenol,2835-99-6,TR,train
+Oc1ccc(O)c(c1)C(C)(C)C,1,"2-tert-Butyl-1,4-benzenediol",1948-33-0,TS,train
+Oc1ccc(O)cc1,1,Hydroquinone,123-31-9,TS,train
+Oc1ccc(O)nn1,0,Maleic hydrazide,123-33-1,TR,train
+Oc1ccc(OC)cc1C(C)(C)C,1,t-Butylated hydroxyanisole,25013-16-5,TR,train
+Oc1ccc(cc1)C(=C(c2ccc(O)cc2)CC)CC,1,DiethylstilbestroL,56-53-1,TR,train
+Oc1ccc(cc1)C(c2ccc(O)cc2)(C)C,1,Bisphenol-A,80-05-7,TS,train
+Oc1ccc(cc1)C1(OC(=O)c2ccccc12)c1ccc(O)cc1,1,Phenolphthalein,77-09-8,TR,test
+Oc1ccc(cc1OC)CC=C,1,Eugenol,97-53-0,TS,train
+Oc1ccc2c(c1)CCC3C2CCC4(C)(C(O)CCC34),1,17-B-estradiol,50-28-2,TS,test
+Oc1cccc(N)c1,1,3-Aminophenol,591-27-5,TR,train
+Oc1cccc(O)c1,1,resorcinol,108-46-3,TR,val
+Oc1ccccc1,1,Phenol,108-95-2,TR,train
+Oc1ccccc1(O),1,Catechol,120-80-9,TR,test
+Oc2ccc3ccc(cc3(c2(N=Nc1ccc(N)cc1)))[N+](C)(C)C,1,Basic brown 16,26381-41-9,TR,train
+[N-]=[N+]=NC1CC(OC1(CO))N2C=C(C(=O)NC2(=O))C,1,3'-Azido-3'-deoxythymidine; Zidovudine,30516-87-1,TR,train
+c1(c(c(c(c(c1Cl)Cl)Cl)Cl)Cl)Cl,1,Hexachlorobenzene,118-74-1,TR,train
+c1cc(ccc1Cl)Cl,1,"1,4-Dichlorobenzene",106-46-7,TR,train
+c1cc(ccc1N(C)C)C,1,"N,N-dimethyl-p-toluidine",99-97-8,TS,train
+c1cc2ccc3cccc4ccc(c1)c2c34,0,Pyrene,129-00-0,TR,train
+c1ccc(cc1)C,0,toluene,108-88-3,TR,train
+c1ccc(cc1)CCl,1,Benzylchloride,100-44-7,TR,test
+c1ccc(cc1)N(C)C,0,"n,n-dimethylaniline",121-69-7,TR,val
+c1ccc2c(c1)cc3ccc4cccc5ccc2c3c45,1,Benzo[a]pyrene,50-32-8,TS,val
+c1ccc2c(c1)ccc1cc3c(ccc4ccccc34)cc21,1,"1,2,5,6-dibenzoanthracene",53-70-3,TR,train
+c1ccc2c(c1)ccc4c2c(c3ccccc3c4C)C,1,"7,12-Dimethylbenz[a]anthracene",57-97-6,TR,val
+c1ccc3c(c1)c2ccccc2C3,0,Fluorene,86-73-7,TR,test
+c1ccccc1,1,benzene,71-43-2,TR,val
+n1c(nc(c(c1N)c2ccc(cc2)Cl)CC)N,1,pyrimethamine,58-14-0,TR,val
+n1c3ccccc3(cc2ccccc12),1,Acridine,260-94-6,TR,val
+n1cc(cc2c1nc(N)n2C)c3ccccc3,1,"2-Amino-1-methyl-6-phenylimidazo[4,5-b]pyridine",105650-23-4,TR,test
+n1ccc(NC(C)CCCN(CC)CC)c2ccc(cc12)Cl,1,Chloroquine,54-05-7,TS,train
+n1cccc3c1cc(c2c3(nc(N)n2C))C,1,"2-Amino-3,4-dimethylimidazo -[4,5-f]quinoline",77094-11-2,TR,train
+n1cccc3c1ccc2c3(nc(N)n2C),1,"2-amino-3-methyl-3h-imidazo[4,5-f]quinoline;iq;2-amino-3-methylimidazo[4,5-f]quinoline;amino-3-methylimidazo[4,5-f]2­quinoline(iq);2-amino-3-methylimidazo(4,5-f)quinoline(iq)",76180-96-6,TR,val
+n1cccc3c1ccc2ccccc23,1,b-naphthoquinoline,85-02-9,TR,train
+n1ccccc1C(c2ccc(cc2)Cl)CCN(C)C,1,Chlorphenamine,132-22-9,TR,train
+n1ccccc1CCl,1,2-(Chloromethyl)pyridine.HCl,6959-47-3,TR,train
+n1ccccc1N(Cc2cccs2)CCN(C)C,1,Methapyrilene,91-80-5,TS,train
+n1cscc1c2nc3ccccc3([nH]2),1,Thiabendazole,148-79-8,TR,train
+n1nc(NN)c2ccccc2(c1NN),1,Dihydralazine,484-23-1,TS,train
+n2c1ccc(OC)cc1c(NC(C)CCCN(CC)CC)c3ccc(cc23)Cl,1,Quinacrine,69-05-6,TR,train
